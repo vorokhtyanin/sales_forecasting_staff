@@ -14,7 +14,6 @@ file = 'zvit.xlsx'
 df = pd.read_excel(
     dtype={"Акція на товар": 'float'},
     io=file,
-    engine='openpyxl',
     nrows=123,
 )
 # Виведення заголовка та даних на основній сторінці
